@@ -53,7 +53,7 @@ namespace TemperatureReadingToDatabase
 		{
 			try
 			{
-				string connectionString = "Server=localhost;port=3307;Database=RoomTemperature;UserID=root;Password=12345;Pooling=true;";
+				string connectionString = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 
 				using (var connection = new MySqlConnection(connectionString))
 				{
